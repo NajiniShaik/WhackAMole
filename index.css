@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+body{
+    background-image: linear-gradient(to bottom, #9ba9eb, #9ba9eb, #c3caea);
+    background-size: cover;
+    min-height:100vh;
+    font-family: "Robto";
+}
+.navbar{
+    width:90%;
+    max-width: 1100px;
+    margin: auto;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.score-time-board {
+    display: flex;
+    gap:30px;
+}
+
+
+.score-time-board span{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+
+.bg-container{
+    margin:0px auto;
+    width:90%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    cursor: url("	https://akshatmittal61.github.io/Whack-A-Mole/images/hammer.png"), default;
+    height:700px;
+    width:700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:733px){
+    .grid{
+        width:100%;
+        height: 100%;
+    }
+}
+
+.card{
+    height:200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#454f84;
+    border-radius: 4px;
+    margin: 0px 10px 10px 0px;
+}
+
+@media (max-width:733px){
+    .card{
+        height:150px;
+        width: 150px;
+    }
+}
+
+@media (max-width:565px){
+    .card{
+        height:120px;
+        width: 120px;
+    }
+}
+
+.mole{
+    background-image: url("https://akshatmittal61.github.io/Whack-A-Mole/images/mole-happy.png");
+    background-size: cover;
+    box-shadow: 0px 0px 15px #3c4574,0px 0px 15px #3c4574;
+}
